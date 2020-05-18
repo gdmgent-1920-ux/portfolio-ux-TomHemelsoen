@@ -1,0 +1,728 @@
+/**
+* My main CSS file
+*/
+
+@media all and (max-width: 576px) {
+
+
+
+    body {
+        height: 2161px;
+    }
+
+    .container-fluid {
+        height: 2014px;
+    }
+
+
+    .background {
+        width: 100%;
+        height: 896px;
+        position: absolute;
+    }
+
+    header {
+        width: 375px;
+    }
+
+
+    #backgroundimage {
+        height: 197px;
+        width: 97.5vw;
+        position: absolute;
+        margin-left: 2%;
+        margin-top: 124px;
+        object-fit: cover;
+
+    }
+
+    .topbar {
+        width: 100%;
+        height: 119px;
+        position: absolute;
+
+    }
+
+
+    .searchbar {
+        position: absolute;
+        margin-top: 2%;
+        justify-content: center;
+        margin-left: -28%;
+    }
+
+    #searchbar {
+
+        margin-top: 20%;
+        position: absolute;
+        width: 85%;
+
+    }
+
+    #searchicon {
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 32%;
+
+    }
+
+    h1 {
+        font-size: 25px;
+
+        margin-top: 30px;
+
+    }
+
+    .toplogo {
+
+        position: absolute;
+    }
+
+    .p1 {
+        display: none;
+    }
+
+    #user {
+        display: none;
+    }
+
+    #shoppingcart {
+        position: relative;
+        margin-left: 70%;
+        font-size: 142.75%;
+        margin-top: 9%;
+    }
+
+
+
+
+
+    /**
+* hamburger icon
+*/
+
+    .nav-toggler {
+        display: inline-block;
+        cursor: pointer;
+
+
+    }
+
+    .bar1,
+    .bar2,
+    .bar3 {
+
+        width: 30px;
+        height: 3px;
+
+        background-color: black;
+        margin: -70% 0;
+        margin-left: 100%;
+        margin-top: 84%;
+        z-index: 1;
+        position: relative;
+
+        transition: 0.4s;
+
+    }
+
+    /* Rotate first bar */
+    .nav-toggler.toggled .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-1px, 9px);
+        transform: rotate(-45deg) translate(-1px, 9px);
+    }
+
+    /* Fade out the second bar */
+    .nav-toggler.toggled .bar2 {
+        opacity: 0;
+    }
+
+    /* Rotate last bar */
+    .nav-toggler.toggled .bar3 {
+        -webkit-transform: rotate(45deg) translate(-1px, -9px);
+        transform: rotate(45deg) translate(-1 px, -9px);
+    }
+
+    .border {
+        display: none;
+    }
+
+    .border.toggled {
+        display: flex;
+        position: fixed;
+        margin-top: -20px;
+        z-index: 1;
+        background-color: var(--color-lightred);
+        flex-direction: column;
+        width: 310px;
+        height: 812px;
+        margin-left: -40px;
+        border-bottom: none;
+
+
+
+
+    }
+
+    .selectionlink {
+        margin-top: 40px;
+        color: white;
+        border-bottom: solid 0.4px var(--color-gray);
+        width: 298px;
+    }
+
+    #sale {
+        display: none;
+    }
+
+    #klantenservice {
+        color: white;
+        position: absolute;
+        margin-top: 370px;
+        margin-left: -2px;
+        background-color: var(--color-darkred);
+        padding: 5px;
+    }
+
+    .arrow {
+        transform: rotate(-90deg);
+        display: inline-block;
+    }
+
+
+
+
+    /**
+  *main
+*/
+
+    .bigselection {
+        margin-top: 35%;
+        margin-left: 5%;
+    }
+
+    .selectionpicture {
+        margin-top: 0%;
+        margin-left: -20%;
+        text-align: center;
+        margin-bottom: -21%;
+        
+
+
+    }
+
+    .picturelink {
+        width: 65%;
+        height: 57%;
+        position: absolute;
+       
+    }
+    h2{
+        position: relative;
+        margin-top: 0px;
+    }
+
+
+    .midselection {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+
+        margin-top: 37%;
+        margin-left: -5%;
+        position: relative;
+    }
+
+    .firstspan {
+        padding-left: 25%;
+    }
+
+    .buitenlampen {
+        margin-left: 46.5%;
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 35%;
+        position: absolute;
+        margin-left: 49%;
+        font-size: 125%;
+
+    }
+
+    h3 {
+        font-size: 156.25%;
+    }
+
+    .secondsection {
+        margin-top: -2%;
+    }
+
+    .voordelen {
+        width: 120%;
+        margin-left: 0%;
+        
+    }
+
+    .voordelen2 {
+        width:100%;
+        height: 100%;
+
+
+    }
+
+
+
+    .p2 {
+        font-size: 15px;
+    }
+
+    .p3 {
+        margin-top: -15px;
+        font-size: 15px;
+    }
+
+
+    
+    #geldterug {
+        font-size: 15px;
+    }
+
+    footer {
+        margin-top: 0%;
+        height: 828px;
+    }
+
+    .foot {
+        margin-left: 1px;
+        height: 593px;
+    }
+
+    .overons {
+        border-top: none;
+        margin-top: -4px;
+    }
+
+    h4 {
+        margin-top: 60px;
+        padding-top: 15px;
+        border-top: solid 0.5pt var(--color-gray);
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+    #nieuwsbrief {
+        margin-top: -25px;
+
+    }
+
+    .chevronright {
+        position: absolute;
+
+        margin-top: -25px;
+
+    }
+
+    .informatie {
+        margin-top: -25px;
+
+    }
+
+    .followus {
+        margin-top: -20px;
+        margin-left: 10px;
+
+    }
+
+    .social {
+        border-top: none;
+    }
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    margin-right: 0;
+    padding-right: 0;
+
+}
+
+
+body {
+    height: 1946px;
+    background-color: var(--color-white);
+}
+
+#backgroundimage {
+
+    height: 586px;
+    width: 100%;
+
+}
+
+.background {
+    position: absolute;
+    margin-top: -1%;
+    width: 100vw;
+    height: 972px;
+
+    background-image: var(--color-gradient);
+}
+
+.topbar {
+    width: 100vw;
+    height: 36.5px;
+    background-color: var(--color-topbar);
+    position: relative;
+
+
+}
+
+.navigation {
+    margin-left: 7%;
+    width: 430px;
+    margin-top: -1.5px;
+}
+
+#welkom {
+
+    font-family: Bahnschrift Regular;
+    font-size: 10.5pt;
+    margin-left: -12%;
+    margin-right: 7%;
+
+
+
+
+}
+
+#winkelwagen {
+
+    font-family: Bahnschrift Regular;
+    font-size: 12pt;
+    color: var(--color-white);
+
+
+
+
+}
+
+
+.row.top {
+    height: 36.5px;
+}
+
+#user {
+
+
+    padding: 11px 15px 11px;
+    margin-left: 6%;
+    margin-right: 5%;
+    border-left: solid 0.1pt black;
+    border-right: solid 0.1pt black
+}
+
+#shoppingcart {
+    position: relative;
+    margin-left: 20px;
+    height: 16px;
+    width: 16px;
+}
+
+#l {
+    color: var(--color-white)
+}
+
+h1 {
+
+
+    font-family: bahnschrift regular;
+    font-size: 48pt;
+    font-weight: 100;
+    color: var(--color-darkred);
+    margin-left: -3%
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+
+    justify-content: flex-end;
+
+}
+
+#searchbar {
+    text-align: center;
+    outline: none;
+    width: 207px;
+    height: 33px;
+    font-family: Calibri light;
+    font-size: 20pt;
+    position: absolute;
+    border: solid 0.2pt var(--color-gray);
+    border-radius: 3px;
+    margin-left: -20px;
+
+
+}
+
+#searchicon {
+    position: absolute;
+    margin-left: -25px;
+
+
+
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    border-left: solid 1pt var(--color-gray);
+
+}
+
+
+
+.selectionlink {
+  
+    justify-content: center;
+    font-family: Bahnschrift Regular;
+    text-decoration: none;
+    color: var(--color-darkred);
+    padding-right: 3.35%;
+    font-size: 143.75%;
+    font-weight: 600;
+}
+
+
+
+.topselection {
+
+    margin-top: 5%;
+    width: 100%;
+
+}
+
+.border {
+    border-bottom: solid 1pt var(--color-gray);
+    width: 100%;
+}
+
+#sale {
+    position: relative;
+    color: white;
+    font-family: Bahnschrift Regular;
+    font-size: 131.25%;
+    text-decoration: none;
+
+
+}
+
+#klantenservice {
+    position: relative;
+    color: var(--color-beige);
+    text-decoration: none;
+    padding: 0.30%;
+    background-color: white;
+    font-family: Bahnschrift Regular;
+    font-size: 93.75%;
+    margin-left: 2%;
+
+
+}
+
+
+.selectionpicture {
+    width: 100%;
+    height: 198px;
+    text-align: center;
+
+    margin-right: 20px;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}
+
+.picturelink {
+    width: 100%;
+    height: 100%;
+    border-radius: 4pt;
+
+}
+
+
+
+h2 {
+
+   margin-top: -50px;
+    font-family: acumin-pro, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    color: white;
+    font-size: 187.5%;
+    
+
+
+}
+
+.bold {
+    font-family: acumin-pro, sans-serif;
+    font-style: bold;
+    color: white;
+    font-weight: 700;
+}
+
+.main {
+    height: 1300px;
+}
+
+h3 {
+    margin-top: 70%;
+    font-family: Bahnschrift Regular;
+    font-style: bold;
+    text-align: center;
+    font-size: 33px;
+    border-bottom: solid 1pt var(--color-gray);
+    padding-bottom: 22px;
+}
+
+
+.troeven {
+    width: 100%;
+    height: 90%;
+}
+
+.voordelen2 {
+    width: 100%;
+    height: 90%;
+
+
+}
+
+
+
+.p2 {
+    font-family: Bahnschrift Regular;
+    font-size: 125%;
+    font-style: bold;
+    font-weight: 600;
+
+}
+
+.p3 {
+
+    font-family: Bahnschrift Regular;
+    font-size: 100%;
+    font-style: bold;
+    font-weight: 800;
+
+}
+
+#geldterug {
+    font-family: bahnschrift Regular;
+    font-size: 112%;
+    font-weight: 100;
+}
+
+.rechts {
+    text-align: center;
+    
+    
+}
+
+.links {
+    text-align: center;
+}
+
+footer {
+    height: 467px;
+    width: 100vw;
+    background-color: var(--color-topbar);
+}
+
+li {
+    list-style-type: none;
+    font-family: calibri regular;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+
+h4 {
+    font-family: Bahnschrift condensed;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+}
+
+.p4 {
+
+    font-family: calibri regular;
+    font-size: 16px;
+    font-weight: 200;
+
+}
+
+.socialmedia {
+    font-size: 25px;
+}
+
+.followus {
+    text-align: center;
+}
+
+.social {
+    margin-bottom: -10px;
+}
+
+#nieuwsbrief {
+
+    background-color: transparent;
+    height: 31px;
+    width: 176px;
+    border: solid 0.2pt black;
+    outline: none;
+    position: absolute;
+    font-family: calibri light;
+    font-size: 14px;
+
+
+}
+
+#nieuwsbrief::placeholder {
+    color: black;
+    padding-left: 5px;
+}
+
+
+
+.chevronright {
+    color: white;
+    position: relative;
+    margin-left: 150px;
+    padding: 7.5px;
+    background-color: black;
+    width: 31px;
+    text-align: center;
+}
+
+
+.nav-toggler {
+    display: none;
+}
+
+/**
+ *mediaquery's
+ */
+
+
