@@ -1,0 +1,982 @@
+/**
+* My main CSS file
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    margin-right: 0;
+    padding-right: 0;
+
+}
+
+
+body {
+        width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+
+    background-color: var(--color-white);
+    
+}
+
+
+.background {
+    position: absolute;
+    margin-top: -1%;
+    width: 100vw;
+ 
+
+    background-image: var(--color-gradient);
+    height:350%;
+z-index: -1;
+}
+
+.topbar {
+    width: 100vw;
+    height: 36.5px;
+    background-color: var(--color-topbar);
+    position: relative;
+  
+
+}
+
+.navigation {
+    margin-left: 7%;
+    width: 430px;
+}
+
+#welkom {
+
+    font-family: Bahnschrift Regular;
+    font-size: 10.5pt;
+    margin-left: -12%;
+    margin-right: 7%;
+
+
+
+
+}
+
+#winkelwagen {
+
+    font-family: Bahnschrift Regular;
+    font-size: 12pt;
+    color: var(--color-white);
+
+
+
+
+}
+
+
+.row.top {
+    height: 36.5px;
+}
+
+#user {
+
+
+    padding: 11px 15px 11px;
+    margin-left: 6%;
+    margin-right: 5%;
+    border-left: solid 0.1pt black;
+    border-right: solid 0.1pt black
+}
+
+#shoppingcart {
+    position: relative;
+    margin-left: 20px;
+    height: 16px;
+    width: 16px;
+}
+
+#l {
+    color: var(--color-white)
+}
+
+h1 {
+
+
+    font-family: bahnschrift regular;
+    font-size: 48pt;
+    font-weight: 100;
+    color: var(--color-darkred);
+ 
+    margin-top: 2%;
+    margin-left: -10%;
+    margin-bottom: -20%;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+
+    justify-content: flex-end;
+
+}
+
+#searchbar {
+    text-align: center;
+    outline: none;
+
+    height: 33px;
+    font-family: Calibri light;
+    font-size: 20pt;
+    position: absolute;
+    border: solid 0.2pt var(--color-gray);
+    border-radius: 3px;
+    margin-left: -20px;
+
+
+}
+
+#searchicon {
+    position: absolute;
+    margin-left: -25px;
+
+
+
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    border-left: solid 1pt var(--color-gray);
+
+}
+
+
+
+.selectionlink {
+
+    justify-content: center;
+    font-family: Bahnschrift Regular;
+    text-decoration: none;
+    color: var(--color-darkred);
+    padding-right: 3.35%;
+    font-size: 1.45vw;
+    font-weight: 600;
+}
+
+
+
+.topselection {
+
+    margin-top: 5%;
+    width: 100%;
+
+}
+
+.border {
+    border-bottom: solid 1pt var(--color-gray);
+    width: 100%;
+}
+
+#sale {
+    position: relative;
+    color: white;
+    font-family: Bahnschrift Regular;
+    font-size: 1.40vw;
+    text-decoration: none;
+
+
+}
+
+#klantenservice {
+    position: relative;
+    color: var(--color-beige);
+    text-decoration: none;
+    padding: 0.30%;
+    background-color: white;
+    font-family: Bahnschrift Regular;
+    font-size: 1.40vw;
+    margin-left: 2%;
+
+
+}
+/**
+  *main
+**/
+
+#terug{
+    padding: 8px 22px;
+    background-color: var(--color-darkred);
+    border-radius: 7px;
+    text-decoration: none;
+    font-family: calibri light;
+    font-size: 18px;
+    color: white;
+    font-weight: 550;
+}
+
+.filtercontainer{
+    margin-top: 56px;
+}
+.filter{
+    margin-top: 34px;
+}
+h3{
+    font-family: bahnschrift;
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+h5{
+    font-family: Bahnschrift regular;
+    font-size: 20px;
+    border-bottom: solid 1px var(--color-gray);
+
+}
+
+ul{
+    margin-top: 16px;
+    margin-bottom: 25px;
+}
+
+.listbox{
+    width: 0.9vw;
+    height: 1.5vh;
+    border: solid 0.5px var(--color-gray);
+    border-radius: 2px;
+    background-color: white;
+    display: inline-block;
+    margin-right: 3%;
+    margin-top: 1px;
+}
+
+
+.list{
+font-family: calibri;
+font-size: 13px;
+}
+
+
+
+#resultaten{
+    margin-top: -2vh;
+    padding: 1vh 2vw;
+    background-color: var(--color-topbar);
+    border: solid 0.3px var(--color-gray);
+    border-radius: 2px;
+   
+    font-family: bahnschrift;
+    font-size: 1.3vw;
+    color: var(--color-darkred);
+    text-decoration: none;
+    font-weight: 500;
+    position: absolute;
+}
+
+.main{
+    margin-top: 56px;
+}
+
+.path{
+    font-family: calibri;
+    color: var(--color-lightergray);
+    text-decoration: none;
+    font-size: 15px;
+}
+.arrowright{
+    font-size: 12px;
+}
+
+#lampen{
+    display: inline;
+}
+
+h2{
+    font-family: Bahnschrift;
+    font-weight: 700;
+    font-size: 43px;
+    margin-top: 25px;
+    margin-bottom: 28px;
+}
+
+#bigpic{
+    width: 100%;
+    height: 258px;
+    object-fit: cover;
+    margin-bottom: 16px;
+}
+
+
+
+h3{
+    font-family: bahnschrift;
+    font-size: 20px;
+    margin-bottom: 41px;
+}
+
+#catdescription{
+    font-family: calibri;
+    font-size: 16px;
+    color: var(--color-darkergray);
+    margin-bottom: 73px;
+}
+
+#numberofproducts{
+    font-family: calibri;
+    font-size: 16px;
+    color: var(--color-lightergray);
+}
+#sort{
+    font-family: calibri;
+    font-size: 18px;
+    color: var(--color-darkred)
+
+}
+
+#prijs{
+    padding: 0.65vh  1vw;
+    background-color: white;
+    border: solid 0.4px var(--color-gray);
+    border-radius: 1px;
+    font-size: 15px;
+  
+    color: var(--color-lightergray);
+  
+}
+
+.arrowdown{
+    font-size: 1.5vh;
+    margin-left: 0.5vw;
+}
+.page{
+   display: flex;
+    font-family: bahnschrift;
+    align-items: center;
+    justify-content: center;
+    margin-top: -0.2vh;
+
+    width: 3.75vh;
+    height: 3.75vh;
+    background-color:white ;
+    border: solid 0.4px var(--color-gray);
+    border-radius: 4px;
+    font-size: 1.25vw;
+    color: var(--color-lightergray);
+    margin-right: 0.5vw;
+    text-decoration: none;
+}
+.arrowright2{
+  
+    font-size: 2.7vh;
+    color: var(--color-darkred);
+    margin-left: 0vw;
+    margin-top: 0.4vh;
+  
+}
+.line{
+    border-bottom: solid 1px var(--color-gray);
+    padding-bottom: 11px;
+    width: 100%;
+    
+}
+
+.products{
+    margin-top: 62px;
+}
+
+.kader{
+    border: solid 0.5px var(--color-gray);
+    background-color: var(--color-beige);
+    width: 14vw;
+    height: 288px;
+    text-align: center;
+    margin-bottom: 6.5vh;
+}
+
+.productpic{
+    width: 100%;
+    height: 156px;
+   
+    border-bottom: solid 0.5px var(--color-gray);
+
+ 
+}
+    
+
+.productinfo{
+
+    position: relative;
+    
+    text-align: center;
+    
+    
+}
+
+.productbeschrijving{
+    height: 4.5vh;
+}
+
+.topinfo{
+    font-family: calibri;
+    font-size: 0.6vw;
+    color: white;
+    margin-top: 0.2vh;
+    margin-bottom: 0.9vh;
+}
+
+.productprice{
+    font-family: Bahnschrift;
+    font-weight: 600;
+    font-size: 1.4vw;
+    color: white;
+    
+    
+}
+.winkelwagenbutton{
+    font-family: bahnschrift;
+   font-size: 0.8vw;
+    text-decoration: none;
+color: white;
+padding: 1vh 1vw;
+background-color: var(--color-topbar);
+border-radius: 3px;
+
+
+}
+
+.meerinfobutton{
+    font-family: bahnschrift;
+    font-size: 1vw;
+     text-decoration: none;
+ color: var(--color-beige);
+ padding: 0.6vh 2.3vw;
+ background-color: var(--color-white);
+ border-radius: 3px;
+
+  
+
+ }
+.winkelwagenknop{
+    margin-bottom: 2vh;
+    margin-top: 0.4vh;
+}
+
+.line.second{
+    margin-top: 7vh;
+    margin-bottom: 10vh;
+}
+
+.topbutton{
+   margin-top: -8vh;
+   margin-right: -25px;
+   font-family: calibri;
+   font-size: 18px;
+}
+.arrowup{
+    position: absolute;
+    margin-top: 1vh;
+    margin-left: 0.5vw;
+}
+
+
+
+
+/**
+  *footer
+**/
+
+
+footer {
+    height: 467px;
+    width: 100vw;
+    background-color: var(--color-topbar);
+}
+
+li {
+    list-style-type: none;
+    font-family: calibri regular;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+
+h4 {
+    font-family: Bahnschrift condensed;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+}
+
+.p4 {
+
+    font-family: calibri regular;
+    font-size: 16px;
+    font-weight: 200;
+
+}
+
+.socialmedia {
+    font-size: 25px;
+}
+
+.followus {
+    text-align: center;
+}
+
+.social {
+    margin-bottom: -10px;
+}
+
+#nieuwsbrief {
+
+    background-color: transparent;
+    height: 31px;
+    width: 176px;
+    border: solid 0.2pt black;
+    outline: none;
+    position: absolute;
+    font-family: calibri light;
+    font-size: 14px;
+
+
+}
+
+#nieuwsbrief::placeholder {
+    color: black;
+    padding-left: 5px;
+}
+
+
+
+.chevronright {
+    color: white;
+    position: relative;
+    margin-left: 150px;
+    padding: 7.5px;
+    background-color: black;
+    width: 31px;
+    text-align: center;
+}
+
+
+.nav-toggler {
+    display: none;
+}
+
+.filterbutton{
+    display: none;
+}
+
+.prijsbutton{
+    display: none;
+}
+
+.kruis{
+    display: none;
+}
+
+/**
+ *mediaquery's
+ */
+
+
+
+@media all and (max-width: 576px) {
+
+
+
+
+
+    .background {
+        width: 100vw;
+        height: 380%;
+     
+        position: absolute;
+    }
+
+    header {
+        width: 100%;
+    }
+
+
+
+  
+
+    .topbar {
+        width: 100%;
+        height: 119px;
+        position: absolute;
+        margin-top: 0px;
+
+    }
+
+    .navigation {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .searchbar {
+        position: absolute;
+        margin-top: 6%;
+      
+       
+       
+    }
+
+    #searchbar {
+
+        margin-top: 9vh;
+     
+     width: 100%;
+     margin-left: 5%;
+
+
+    }
+
+    #searchicon {
+        position: absolute;
+        margin-top: 9vh;
+        margin-left: 2%;
+
+    }
+    h1 {
+        font-size: 25px;
+
+        margin-top: 4.5vh;
+        margin-left: -5vw;
+
+    }
+
+  
+
+    .p1 {
+        display: none;
+    }
+
+    #user {
+        display: none;
+    }
+    #shoppingcart {
+        position: relative;
+        margin-left: 78%;
+        font-size: 142.75%;
+        margin-top: 35px;
+    }
+
+
+
+
+    /**
+* hamburger icon
+*/
+
+.nav-toggler {
+    display: inline-block;
+    cursor: pointer;
+
+
+}
+
+.bar1,
+.bar2,
+.bar3 {
+
+    width: 30px;
+    height: 3px;
+
+    background-color: black;
+    margin: -65% 0;
+    margin-left: 100%;
+    margin-top: 80%;
+    z-index: 1;
+    position: relative;
+
+    transition: 0.4s;
+
+}
+
+/* Rotate first bar */
+.nav-toggler.toggled .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-1px, 9px);
+    transform: rotate(-45deg) translate(-1px, 9px);
+}
+
+/* Fade out the second bar */
+.nav-toggler.toggled .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.nav-toggler.toggled .bar3 {
+    -webkit-transform: rotate(45deg) translate(-1px, -9px);
+    transform: rotate(45deg) translate(-1 px, -9px);
+}
+
+.border {
+    display: none;
+}
+
+.border.toggled {
+    display: flex;
+    position: fixed;
+    margin-top: -40px;
+    z-index: 1;
+    background-color: var(--color-lightred);
+    flex-direction: column;
+    width: 310px;
+    height: 812px;
+    margin-left: -50px;
+    border-bottom: none;
+
+
+
+
+}
+
+.selectionlink {
+    margin-top: 15%;
+    color: white;
+    border-bottom: solid 0.4px var(--color-gray);
+    font-size: 3.5vw;
+    margin-left: 15px;
+}
+
+#sale {
+    display: none;
+}
+
+#klantenservice {
+    color: white;
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 15px;
+    background-color: var(--color-darkred);
+    padding: 5px;
+    font-size: 3.25vw;
+}
+
+.arrow {
+    transform: rotate(-90deg);
+    display: inline-block;
+}
+
+
+
+
+ /**
+  *main
+*/
+
+
+
+.filtercontainer{
+    display: none;
+}
+.filtercontainer.aan{
+    display: flex;
+    position: fixed;
+    background-color: var(--color-noglichterrood);
+    
+margin-top: -35px;
+z-index: 1;
+margin-left: -30px;
+height: 981px;
+width: 350px;
+overflow-y: scroll;
+}
+
+
+
+.filter{
+    margin-left: 60px;
+    position: fixed;
+    
+}
+
+
+
+h5{
+    padding-right: 158px;
+}
+
+
+.listbox{
+    width: 11px;
+    height: 11px;
+}
+.kruis{
+    display: block;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#terug{
+    display: none;
+}
+
+#bigpic{
+    display: none;
+}
+.main{
+    margin-top: 30%;
+}
+
+h2{
+    font-size: 34px;
+}
+
+#sort{
+    display: none;
+}
+
+
+
+.filterbutton{
+    margin-top: -60px;
+    margin-left: -26vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 100%;
+    height: 45px;
+    font-family: Bahnschrift;
+    font-size: 18px;
+    background-color: var(--color-lightred);
+    border: solid 0.5px var(--color-gray);
+    border-radius: 2px;
+    cursor: pointer;
+}
+.prijsbutton{
+    margin-top: -60px;
+    margin-left: 4vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 100%;
+    height: 45px;
+    font-family: Bahnschrift;
+    font-size: 18px;
+    background-color: var(--color-lightred);
+    border: solid 0.5px var(--color-gray);
+    border-radius: 2px;
+}
+
+
+
+
+.pages{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+}
+.page{
+    font-size: 20px;
+}
+
+
+.kader{
+    width: 100%;
+    
+    position: relative;
+   margin-left: -4vw;
+  
+}
+.topinfo{
+    font-size: 7px;
+}
+
+.productprice{
+    font-size: 22px;
+}
+
+
+.winkelwagenbutton{
+    font-size: 2.5vw;
+    padding: 1vh 2vw;
+    
+}
+
+.meerinfobutton{
+    font-size: 3.4vw;
+    padding:0.5vh 5vw;
+}
+.winkelwagenknop{
+ margin-bottom: 15px;
+}
+
+.topbutton{
+    margin-top: -175px;
+}
+
+
+
+
+
+/**
+  * footer
+ **/
+    
+    footer {
+        margin-top: 10%;
+        height: 110vh;
+    }
+
+    .foot {
+        margin-left: 1px;
+        height: 90vh;
+    }
+
+    .overons {
+        border-top: none;
+        margin-top: -4px;
+    }
+
+    h4 {
+        margin-top: 60px;
+        padding-top: 15px;
+        border-top: solid 0.5pt var(--color-gray);
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+    #nieuwsbrief {
+        margin-top: -25px;
+
+    }
+
+    .chevronright {
+        position: absolute;
+
+        margin-top: -25px;
+
+    }
+
+    .informatie {
+        margin-top: -25px;
+
+    }
+
+    .followus {
+        margin-top: -20px;
+        margin-left: 10px;
+
+    }
+
+    .social {
+        border-top: none;
+    }
+
+}

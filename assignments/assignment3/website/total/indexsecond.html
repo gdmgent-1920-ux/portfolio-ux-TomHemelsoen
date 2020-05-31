@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./secondpage/Css/Styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <title>VintageLight</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <div class="row no-gutters">
+
+
+
+
+            <div class="background">
+            </div>
+
+
+
+
+
+            <header>
+                <div class="topbar">
+
+
+
+                    <div class="row top justify-content-end">
+                        <div class="col-12 col-sm-10 col-md-7 col-lg-5">
+                            <div class="row justify-content-start align-items-center navigation">
+
+                                <p class="p1" id="welkom">welkom bij www.VintageLight.com</p>
+                                <p class="p1" id="winkelwagen">Winkelwagen</p>
+                                <i id='user' class="far fa-user"></i>
+                                <i id='shoppingcart' class="fas fa-shopping-cart"></i>
+                                <div class="nav-toggler" onclick="toggleNavigationIcon(this)">
+                                    <div class="bar1"></div>
+                                    <div class="bar2"></div>
+                                    <div class="bar3"></div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="midheader">
+                    <div class="row mid justify-content-center ">
+                        <div class="col-10 col-sm-7 col-md-10 col-lg-10">
+                            <div class="row mid justify-content-center">
+                                <div class="col-11 col-sm-10 col-md-10 col-lg-10 toplogo">
+                                    <h1>Vintage<span id="l">L</span>ight</h1>
+
+                                </div>
+
+
+                                <div class="col-12 col-sm-12 col-md-11 col-lg-11 searchbar">
+                                    <input type="text" placeholder="Zoeken" id="searchbar">
+                                    <i id="searchicon" class="fas fa-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="topselection">
+
+
+                    <div class="row bottomhead justify-content-center">
+
+                        <div class="col-10 col-sm-10 col-md-10 col-lg-10">
+
+
+                            <div class="border">
+
+
+                                <a class="selectionlink" href="./indexsecond.html">Vloerlampen <span class="arrow"><i
+                                            class="fas fa-chevron-down"></i></span> </a>
+                                <a class="selectionlink" href="./indexsecond.html">Tafellampen <span class="arrow"><i
+                                            class="fas fa-chevron-down"></i></span></a>
+                                <a class="selectionlink" href="./indexsecond.html">Wandlampen <span class="arrow"><i
+                                            class="fas fa-chevron-down"></i></span></a>
+                                <a class="selectionlink" href="./indexsecond.html">Hanglampen <span class="arrow"><i
+                                            class="fas fa-chevron-down"></i></span></a>
+                                <a class="selectionlink" href="./indexsecond.html">Buitenlampen <span class="arrow"><i
+                                            class="fas fa-chevron-down"></i></span></a>
+                                <a id="sale" href="#">Sale</a>
+                                <a id="klantenservice" href="#">Klantenservice</a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </header>
+            <main>
+
+
+                <div class="row justify-content-end fullcontainer">
+                    <div class="col-11 col-sm-11 col-md-11 col-lg-11">
+
+
+                        <div class="row justify-content-start">
+                            <div class="col-sm-4 col-md-3 col-lg-2 filtercontainer">
+                                <a id="terug" href="./index.html">Terug</a>
+                                <div class="filter">
+                                    <h3>
+                                        Filter op
+                                    </h3>
+                                    <div class="kruis" onclick="wegFilter(this)">
+                                        <i class="fas fa-times kruis"></i>
+                                    </div>
+                                    <h5>Subcategorie</h5>
+                                    <ul>
+                                        <li class=list>
+                                            <span class="listbox"></span>Decoratieve lampen
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>Hanglampen
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>Kroonluchters
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>Schemerlampen
+                                        </li>
+                                    </ul>
+                                    <h5>Woonruimte</h5>
+                                    <ul>
+                                        <li class=list>
+                                            <span class="listbox"></span>Binnenverlichting
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>Eetkamer
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>Garage/kelder
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>Hal
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>Kantoor
+                                        </li>
+                                    </ul>
+                                    <h5>Prijs</h5>
+                                    <ul>
+                                        <li class=list>
+                                            <span class="listbox"></span>€0 - 50€
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>€50 - €100
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>€0 - €200
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>€0 - €300
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>€0 - €400
+                                        </li>
+                                    </ul>
+                                    <h5>Kleur</h5>
+                                    <ul>
+                                        <li class=list>
+                                            <span class="listbox"></span>Brons
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>Aluminium
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>Beige
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>Chroom
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>Wit
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>Grijs
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>Crème
+                                        </li>
+                                    </ul>
+                                    <h5>Materiaal</h5>
+                                    <ul>
+                                        <li class=list>
+                                            <span class="listbox"></span>Aluminium
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>Bamboo
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>Glas
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>Hout
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>Katoen
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>Staal
+                                        </li>
+                                    </ul>
+                                    <h5>Dimbaar</h5>
+                                    <ul>
+                                        <li class=list>
+                                            <span class="listbox"></span>Ja, dimbaar
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>Nee, niet dimbaar
+                                        </li>
+
+
+                                    </ul>
+                                    <h5>Energielabel</h5>
+                                    <ul>
+                                        <li class=list>
+                                            <span class="listbox"></span>A++
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>A+
+                                        </li>
+                                        <li class=list>
+                                            <span class="listbox"></span>A
+                                        </li>
+
+                                    </ul>
+                                    <a id="resultaten" href="#">Toon resultaten</a>
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="col-12 col-sm-8 col-md-9 col-lg-10 main">
+                                <div class="row">
+                                    <div class="col-8 col-sm-12 col-md-6 col-lg-4">
+                                        <div> <a href="./index.html" class="path">Home <i
+                                                    class="fas fa-chevron-right arrowright"></i></a>
+                                            <p id="lampen" class="path">Lampen</p>
+                                        </div>
+                                        <h2>Alle lampen</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-9 col-md-8 col-lg-6">
+                                        <img id="bigpic" alt="main picture"
+                                            src="./pics/john-salzarulo-d8v7UEoKc5M-unsplash.jpg">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12 col-lg-6">
+                                        <h3> Creëer meer sfeer met vintage lampen! </h3>
+                                        <p id="catdescription">
+                                            Een hanglamp is ideaal om o.a. je woonkamer, eetkamer of
+                                            slaapkamer
+                                            sfeervol te verlichten. We hebben voor jou een ruim
+                                            assortiment
+                                            aan
+                                            hanglampen in diverse soorten en maten, groot en klein. Kies
+                                            de
+                                            hanglamp uit in jouw favoriete stijl.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="row line">
+                                    <div class="col-4 col-sm-5 col-md-3 col-lg-6">
+                                        <p id="numberofproducts">438 producten</p>
+                                    </div>
+
+                                    <div class="col-5 filterbutton" onclick="toggleFilter(this)">
+                                        <p>Filter</p>
+                                    </div>
+                                    <div class="col-5 prijsbutton">
+                                        <p>Prijs <i class="fas fa-chevron-down arrowdown"></i></p>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4 col-lg-3">
+                                        <p id="sort">Sorteer op <span id="prijs">Prijs<i
+                                                    class="fas fa-chevron-down arrowdown"></i> </span>
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-5 col-lg-3 pages">
+                                        <div class="row">
+                                            <a href="#" class="page">1</a>
+                                            <a href="#" class="page">2</a>
+                                            <a href="#" class="page">3</a>
+                                            <a href="#" class="page">4</a>
+                                            <a href="#" class="page">5</a>
+                                            <i href="#" class="fas fa-chevron-right arrowright2"></i>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="row products">
+
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                        <div class="kader">
+                                            <div>
+                                                <img class="productpic" src="./pics/lamp 3 detailscherm.jpg">
+                                            </div>
+                                            <div class="productinfo">
+                                                <div class="productbeschrijving">
+                                                    <p class="topinfo">VILLA FLOR HANGLAMP WANGI <br>
+                                                        WHITE
+                                                        CILINDERS 55 CM
+                                                    </p>
+                                                </div>
+                                                <h class="productprice">€122</h>
+                                                <div class="winkelwagenknop">
+                                                    <a href="#" class="winkelwagenbutton"> in
+                                                        winkelwagen <i class="fas fa-shopping-cart"></i>
+                                                    </a>
+                                                </div>
+
+                                                <div class="meeinfoknop">
+                                                    <a href="./indexthird.html" class=meerinfobutton>
+                                                        meer info</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                        <div class="kader">
+                                            <div>
+                                                <img class="productpic" src="./pics/lamp 2_files/1_1_1.jpg">
+                                            </div>
+                                            <div class="productinfo">
+                                                <div class="productbeschrijving">
+                                                    <p class="topinfo">TAFELLAMP WANGI WIT DONUT <br> 45
+                                                        CM
+
+                                                    </p>
+                                                </div>
+                                                <h class="productprice">€55</h>
+                                                <div class="winkelwagenknop">
+                                                    <a href="#" class="winkelwagenbutton"> in
+                                                        winkelwagen <i class="fas fa-shopping-cart"></i>
+                                                    </a>
+                                                </div>
+
+                                                <div class="meeinfoknop">
+                                                    <a href="./indexthird.html" class=meerinfobutton>
+                                                        meer info</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                        <div class="kader">
+                                            <div>
+                                                <img class="productpic" src="./pics/lamp 3.jpg">
+                                            </div>
+                                            <div class="productinfo">
+                                                <div class="productbeschrijving">
+                                                    <p class="topinfo">Industriële hanglamp zwart - <br>
+                                                        Facil 1
+
+                                                    </p>
+                                                </div>
+                                                <h class="productprice">€30</h>
+                                                <div class="winkelwagenknop">
+                                                    <a href="#" class="winkelwagenbutton"> in
+                                                        winkelwagen <i class="fas fa-shopping-cart"></i>
+                                                    </a>
+                                                </div>
+
+                                                <div class="meeinfoknop">
+                                                    <a href="./indexthird.html" class=meerinfobutton>
+                                                        meer info</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                        <div class="kader">
+                                            <div>
+                                                <img class="productpic" src="./pics/lamp 4.jpg">
+                                            </div>
+                                            <div class="productinfo">
+                                                <div class="productbeschrijving">
+                                                    <p class="topinfo">Moderne hanglamp chroom -<br>
+                                                        Facil 3
+
+                                                    </p>
+                                                </div>
+                                                <h class="productprice">€45</h>
+                                                <div class="winkelwagenknop">
+                                                    <a href="#" class="winkelwagenbutton"> in
+                                                        winkelwagen <i class="fas fa-shopping-cart"></i>
+                                                    </a>
+                                                </div>
+
+                                                <div class="meeinfoknop">
+                                                    <a href="./indexthird.html" class=meerinfobutton>
+                                                        meer info</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                        <div class="kader">
+                                            <div>
+                                                <img class="productpic" src="./pics/lamp 5.jpeg">
+                                            </div>
+                                            <div class="productinfo">
+                                                <div class="productbeschrijving">
+                                                    <p class="topinfo">HANGLAMP HEAD ZWART
+                                                    </p>
+                                                </div>
+                                                <h class="productprice">€170</h>
+                                                <div class="winkelwagenknop">
+                                                    <a href="#" class="winkelwagenbutton"> in
+                                                        winkelwagen <i class="fas fa-shopping-cart"></i>
+                                                    </a>
+                                                </div>
+
+                                                <div class="meeinfoknop">
+                                                    <a href="./indexthird.html" class=meerinfobutton>
+                                                        meer info</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                        <div class="kader">
+                                            <div>
+                                                <img class="productpic" src="./pics/lamp 6.jpg">
+                                            </div>
+                                            <div class="productinfo">
+                                                <div class="productbeschrijving">
+                                                    <p class="topinfo">Industriële ronde hanglamp
+                                                        <br>zwart staal 48 cm - Arthur
+                                                    </p>
+                                                </div>
+                                                <h class="productprice">€120</h>
+                                                <div class="winkelwagenknop">
+                                                    <a href="#" class="winkelwagenbutton"> in
+                                                        winkelwagen <i class="fas fa-shopping-cart"></i>
+                                                    </a>
+                                                </div>
+
+                                                <div class="meeinfoknop">
+                                                    <a href="./indexthird.html" class=meerinfobutton>
+                                                        meer info</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                        <div class="kader">
+                                            <div>
+                                                <img class="productpic" src="./pics/lamp 7.jpg">
+                                            </div>
+                                            <div class="productinfo">
+                                                <div class="productbeschrijving">
+                                                    <p class="topinfo">Set van 3 Scandinavische<br>
+                                                        hanglampen zwart met goud -<br> Depeche
+                                                    </p>
+                                                </div>
+                                                <h class="productprice">€130</h>
+                                                <div class="winkelwagenknop">
+                                                    <a href="#" class="winkelwagenbutton"> in
+                                                        winkelwagen <i class="fas fa-shopping-cart"></i>
+                                                    </a>
+                                                </div>
+
+                                                <div class="meeinfoknop">
+                                                    <a href="./indexthird.html" class=meerinfobutton>
+                                                        meer info</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                        <div class="kader">
+                                            <div>
+                                                <img class="productpic" src="./pics/lamp 8.jpg">
+                                            </div>
+                                            <div class="productinfo">
+                                                <div class="productbeschrijving">
+                                                    <p class="topinfo">Moderne hanglamp zwart met 6<br>
+                                                        lichtpunten incl. LED - Ragno
+                                                    </p>
+                                                </div>
+                                                <h class="productprice">€96</h>
+                                                <div class="winkelwagenknop">
+                                                    <a href="#" class="winkelwagenbutton"> in
+                                                        winkelwagen <i class="fas fa-shopping-cart"></i>
+                                                    </a>
+                                                </div>
+
+                                                <div class="meeinfoknop">
+                                                    <a href="./indexthird.html" class=meerinfobutton>
+                                                        meer info</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                                        <div class="kader">
+                                            <div>
+                                                <img class="productpic" src="./pics/lamp 9.jpg">
+                                            </div>
+                                            <div class="productinfo">
+                                                <div class="productbeschrijving">
+                                                    <p class="topinfo">Industriële hanglamp zwart - 4
+                                                        <br>Laser
+                                                    </p>
+                                                </div>
+                                                <h class="productprice">€103</h>
+                                                <div class="winkelwagenknop">
+                                                    <a href="#" class="winkelwagenbutton"> in
+                                                        winkelwagen <i class="fas fa-shopping-cart"></i>
+                                                    </a>
+                                                </div>
+
+                                                <div>
+                                                    <a href="./indexthird.html" class=meerinfobutton>
+                                                        meer info</a>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="row line second">
+                                    <div class="col-6 col-sm-5 col-md-3 col-lg-6">
+                                        <p id="numberofproducts">438 producten</p>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4 col-lg-3">
+                                        <p id="sort">Sorteer op <span id="prijs">Prijs<i
+                                                    class="fas fa-chevron-down arrowdown"></i> </span>
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-5 col-lg-3 pages">
+                                        <div class="row">
+                                            <a href="#" class="page">1</a>
+                                            <a href="#" class="page">2</a>
+                                            <a href="#" class="page">3</a>
+                                            <a href="#" class="page">4</a>
+                                            <a href="#" class="page">5</a>
+                                            <i class="fas fa-chevron-right arrowright2"></i>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-11 col-lg-11">
+                                    <div class="row justify-content-end">
+
+                                        <div class="col-4 col-sm-3 col-md-2 col-lg-1 topbutton">
+
+                                            <p>Top <i class="fas fa-sort-up arrowup"></i></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </main>
+
+
+
+
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <footer>
+                        <div class="row foot justify-content-center">
+                            <div class="col-11 col-sm-10 col-md-10 col-lg-10">
+                                <div class="row foot">
+                                    <div class="col-11 col-sm-5 col-md-5 col-lg-5">
+                                        <h4 class="overons">OVER ONS</h4>
+                                        <p class="p4">Bij VintageLight.com zorgen we voor een zeer uitgebreid
+                                            assortiment
+                                            aan
+                                            vintage
+                                            verlichting.
+                                            Ons motto is 'Lights will guide you home'. Hierdoor willen we accentueren
+                                            dat
+                                            wij
+                                            gaan
+                                            voor
+                                            een knusse stijl, dat gepast is voor ieder thuis. Neem een kijkje door onze
+                                            webwinkel!
+                                        </p>
+                                        <br>
+                                        <h4>NIEUWSBRIEF</h4>
+                                        <br>
+                                        <input id="nieuwsbrief" type="email" placeholder="ENTER YOUR EMAIL">
+                                        <i class="chevronright fas fa-chevron-right"></i>
+                                    </div>
+                                    <div class="col-11 col-sm-4 col-md-4 col-lg-4 informatie">
+                                        <h4>INFORMATIE</h4>
+                                        <ul>
+                                            <li>INFORMATIE</li>
+                                            <li>VERZENDING & RETOUR</li>
+                                            <li>GARANTIES</li>
+                                            <li>SITEMAP</li>
+                                            <li>ZOEKTERMEN</li>
+                                            <li>ZOEKEN</li>
+                                            <li>BESTELLINGEN EN RETOUREN</li>
+                                            <li>MAIL ONS</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="followus">
+                                        <h4 class="social">FOLLOW US</h4>
+                                        <br>
+                                        <i class="socialmedia fab fa-facebook"></i>
+                                        <i class="socialmedia fab fa-instagram"></i>
+                                        <i class="socialmedia fab fa-twitter-square"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./secondpage/js/script.js">
+    </script>
+</body>
+
+</html>

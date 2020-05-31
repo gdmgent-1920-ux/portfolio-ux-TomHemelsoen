@@ -36,7 +36,7 @@ const data = {
             {
                 "text": "Adobe XD Prototype",
                 "title": "Mijn Adobe XD prototype (share link)",
-                "href": "https://xd.adobe.com/view/0281785f-d2d6-4039-5b3d-ae0df2bc7b9a-74b0/",
+                "href": "https://xd.adobe.com/view/40026308-ccda-4a2a-6218-ada4fa297064-3633/",
                 "target": "_blank"
             }
         ]
@@ -62,7 +62,7 @@ const data = {
             {
                 "text": "Adobe XD Prototype",
                 "title": "Mijn Adobe XD prototype (share link)",
-                "href": "https://xd.adobe.com/view/57fc82e0-2907-4a07-5c79-c71c01bfaa3e-21cd/",
+                "href": "https://xd.adobe.com/view/5b9057f3-ec8e-4237-41ff-ac6bbe445e2c-2da1/",
                 "target": "_blank"
             }
         ]
@@ -93,7 +93,7 @@ const data = {
         {
             "text": "Website",
             "title": "Mijn website voor opdracht 3",
-            "href": "./assignments/assignment3/website/firstpage/index.html",
+            "href": "./assignments/assignment3/website/total/index.html",
             "target": "_blank"
         }
     ]
